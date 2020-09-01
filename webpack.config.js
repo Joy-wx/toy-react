@@ -9,7 +9,7 @@ module.exports = {
                 loader: 'babel-loader',
                 options: {
                     presets: ['@babel/preset-env'], // 转换旧语法
-                    plugins: [['@babel/plugin-transform-react-jsx', {pragma: "creatElement"}]] // 改变名称
+                    plugins: [['@babel/plugin-transform-react-jsx', {pragma: 'creatElement'}]] // 改变名称
                 }
             }
         }]
